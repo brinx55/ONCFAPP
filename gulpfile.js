@@ -304,6 +304,7 @@ gulp.task('ripple', ['scripts', 'styles', 'watchers'], function() {
     open: true,
     port: 4400
   };
+  
 
   // Start the ripple server
   ripple.emulate.start(options);
